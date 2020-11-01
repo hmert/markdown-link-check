@@ -45,6 +45,7 @@ Parameters:
 * `markdown` string containing markdown formatted text.
 * `opts` optional options object containing any of the following optional fields:
   * `baseUrl` the base URL for relative links.
+  * `timeout` timeout in zeit/ms format. (e.g. "2000ms", 20s, 1m). Default 10s.
   * `showProgressBar` enable an ASCII progress bar.
   * `httpHeaders` to apply URL specific headers, see example below.
   * `ignorePatterns` an array of objects holding regular expressions which a link is checked against and skipped for checking in case of a match. Example: `[{ pattern: /foo/ }]`
